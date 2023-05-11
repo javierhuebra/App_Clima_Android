@@ -1,4 +1,4 @@
-package com.climareact;
+package com.notjet.climatown;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

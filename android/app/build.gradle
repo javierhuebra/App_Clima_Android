@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.climareact"
+    namespace "com.notjet.climatown"
     defaultConfig {
-        applicationId "com.climareact"
+        applicationId "com.notjet.climatown"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
