@@ -12,14 +12,16 @@ const Clima = ({resultado}) => {
     console.log(resultado)
     return (
         <View style={styles.clima}>
+            <Text style={[styles.texto, styles.cityName]}>{name}</Text>
             <Text style={[styles.texto, styles.actual]}>
+                
                 {parseInt(main.temp - kelvin)}
                 <Text style={styles.temperatura}>
                     &#x2103;
                 </Text>
                 <Image
                     style={{width:86, height:88}}
-                    source={{uri: `http://openweathermap.org/img/w/${resultado.weather[0].icon}.png`}} //para agregar imagenes desde un servidor externo
+                    source={{uri: `https://openweathermap.org/img/w/${resultado.weather[0].icon}.png`}} //para agregar imagenes desde un servidor externo, recordar doble llave
                 />
             </Text>
 
@@ -65,5 +67,9 @@ const styles = StyleSheet.create({
     temperaturas:{
         flexDirection: 'row',
         justifyContent:'center'
+    },
+    cityName:{
+        fontWeight:'bold',
+        fontSize: 25
     }
 })

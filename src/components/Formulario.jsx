@@ -51,6 +51,7 @@ const Formulario = ({busqueda, setBusqueda, setConsultar}) => {
             <View>
                 <TextInput
                     placeholder="Escribe la ciudad"
+                    placeholderTextColor='rgba(0,0,0,0.5)'
                     value={ciudad}
                     onChangeText={ciudad => setBusqueda({...busqueda, ciudad})} //spread operator haciendo su magia
                     style={styles.input}
@@ -119,7 +120,9 @@ const styles = StyleSheet.create({
     },
     picker: {
         backgroundColor: '#FFF',
-        marginTop: 20
+        marginTop: 20,
+        color: '#000',
+        
     }
 
 })
