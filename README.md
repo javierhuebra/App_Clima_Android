@@ -2,9 +2,9 @@
 ## Una app que trabaja con una API de pronostico climático e integra animaciones basicas de react native para conocerlas
 <img  src='/src/assets/images/bannerclima.png'/>
 <div>
-  <img width="300px" src='/src/assets/images/1.PNG'/>
-  <img width="300px" src='/src/assets/images/2.PNG'/>
-  <img width="300px" src='/src/assets/images/3.PNG'/>
+  <img width="270px" src='/src/assets/images/1.PNG'/>
+  <img width="270px" src='/src/assets/images/2.PNG'/>
+  <img width="270px" src='/src/assets/images/3.PNG'/>
  </div>
  
  ## Descarga / Download
